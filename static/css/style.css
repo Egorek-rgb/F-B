@@ -439,11 +439,16 @@ header {
   
 }
 
+.custom-swiper-button-next:hover, .custom-swiper-button-prev:hover{
+  filter: brightness(70%);
+}
+
+
 .swiper-pagination{
   color: white;
   font-family: "Cormorant", serif;
   font-size: 24px;
 }
-.custom-swiper-button-prev{
-  height: 463px;
+.swiper-button-disabled{
+  filter: brightness(70%);
 }

@@ -15,11 +15,3 @@ const swiper = new Swiper('.mySwiper', {
     },
   },
 });
-
-function updateArrowState() {
-  const prevButton = document.querySelector('.custom-swiper-button-prev');
-  const nextButton = document.querySelector('.custom-swiper-button-next');
-  prevButton.classList.add('blue');
-  // Проверяем, находимся ли в начале
-
-}
